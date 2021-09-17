@@ -21,4 +21,4 @@ Revert artinya mengembalikan. Perintah ini lebih aman daripada git reset, karena
 
 Revert akan akan mengambil kondisi file yang ada histori, kemudian menggabungkannya dengan commit terakhir.
 
-3.Git merupakan alat version control. GitHub merupakan alat version control sekaligus penyimpanan cloud
+3.Git merupakan alat Version Control System. GitHub merupakan alat version control sekaligus penyimpanan cloud
