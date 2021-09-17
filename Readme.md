@@ -13,10 +13,11 @@ git push -u [name-origin] [name-branch] #master/main
 2.Perintah git reset sering disebut sebagai perintah berbahaya yang dapat menghancurkan catatan hsitori.
 Perintah ini memiliki tiga argumen atau opsi utama, yaitu --soft, --mixed, dan --hard.
 
-`--soft akan mengebalikan dengan kondisi file dalam keadaan staged
---mixed akan mengebalikan dengan kondisi file dalam keadaan modified
---hard akan mengebalikan dengan kondisi file dalam keadaan commited
-`
+```- soft akan mengebalikan dengan kondisi file dalam keadaan staged
+   - soft akan mengebalikan dengan kondisi file dalam keadaan staged
+   - mixed akan mengebalikan dengan kondisi file dalam keadaan modified
+  - hard akan mengebalikan dengan kondisi file dalam keadaan commited
+```
 Coba periksa catatan perubahan dengan perintah git log, pasti ada yang hilang dan kita tidak akan bisa kembali lagi
 Revert artinya mengembalikan. Perintah ini lebih aman daripada git reset, karena tidak akan menghapus catatan histori.
 
